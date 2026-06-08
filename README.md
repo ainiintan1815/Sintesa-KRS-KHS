@@ -1,7 +1,8 @@
 # Sintesa-KRS-KHS
 SINTESA (Sistem Integrasi Akademik Terpadu) adalah aplikasi desktop berbasis Windows yang dirancang untuk mengintegrasikan pengelolaan data akademik perguruan tinggi, khususnya dalam proses pengisian Kartu Rencana Studi (KRS) dan penerbitan Kartu Hasil Studi (KHS). Aplikasi ini bertujuan untuk meminimalisir kesalahan manual dan meningkatkan efisiensi alur kerja antara admin, dosen, dan mahasiswa.
 
-## 🚀 Fitur UtamaAplikasi ini mendukung tiga peran pengguna dengan hak akses yang berbeda:
+## 🚀 Fitur Utama
+Aplikasi ini mendukung tiga peran pengguna dengan hak akses yang berbeda:
 - Admin: Mengelola data master mahasiswa, dosen, mata kuliah, dan jadwal perkuliahan.
 - Dosen Pembimbing Akademik (DPA): Melakukan validasi (persetujuan/penolakan) KRS mahasiswa bimbingan serta menginput nilai akhir mahasiswa.
 - Mahasiswa: Melakukan pengisian KRS secara mandiri, mencetak bukti KRS, serta melihat dan mengunduh KHS.
@@ -12,9 +13,10 @@ SINTESA (Sistem Integrasi Akademik Terpadu) adalah aplikasi desktop berbasis Win
 - Basis Data: Microsoft SQL Server Management Studio (SSMS).
 - Konektivitas: ADO.NET untuk integrasi database.
 
-## 📊 Rancangan SistemSistem ini dibangun dengan struktur data yang terintegrasi, mencakup entitas Akun, Mahasiswa, Dosen, Mata Kuliah, Jadwal, KRS, dan KHS.
+## 📊 Rancangan Sistem
+Sistem ini dibangun dengan struktur data yang terintegrasi, mencakup entitas Akun, Mahasiswa, Dosen, Mata Kuliah, Jadwal, KRS, dan KHS.
 
-## 💻 Tampilan AplikasiBeberapa modul utama dalam aplikasi meliputi:
+## 💻 Tampilan Aplikasi
 - Menu Login: Autentikasi keamanan berdasarkan peran (Admin/DPA/Mahasiswa).
 - Dashboard Admin: Pusat kendali manajemen data akademik.
 - Menu KRS & KHS: Antarmuka interaktif untuk pengelolaan rencana dan hasil studi
